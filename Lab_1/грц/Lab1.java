@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Lab1 {
     public static void main(String[] args) {
-        //double F = 0, a, b, h, x;
         Scanner in = new Scanner(System.in);
         System.out.print("Введите начало отрезна: ");
         double a = in.nextDouble();
