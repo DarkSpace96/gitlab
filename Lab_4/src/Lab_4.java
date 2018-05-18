@@ -31,6 +31,7 @@ public  class Lab_4{
         } while(Error);
         Error = true;
         do{
+            System.out.println("Для выхода нажмите ESC");
             System.out.println("Введите ключ: ");
             Scanner in = new Scanner(System.in);
             String propertyname = in.nextLine();
